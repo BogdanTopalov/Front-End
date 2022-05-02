@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.linksList {
+    list-style: none;
+}
+
+.linksList li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.linksList li a {
+    transition: all 0.3s ease 0s;
+}
+
+.linksList li a:hover,
+button:hover {
+    color: #ba0600;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+#title{
+    position: absolute;
+    padding: 3rem;
+    height: inherit;
+    width: inherit;
+    z-index: -1;
+}
+
+h1 {
+    font-family: cursive, 'Snell Roundhand';
+    font-size: 10vw;
+    text-align: center;
+}
+
+#rose {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    font-size: 4vw;
+    padding-top: 2rem;
+}
+
+P {
+    padding:2rem 15rem;
+    font-size: 1.5vw;
+}
+
+#social {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+li, a, button {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: inherit;
+    font-weight: bold;
+}
+
+.darkMode {
+    background-color: white;
+    color: black;
+}
