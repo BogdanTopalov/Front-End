@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+body > article > ul {
+    list-style-type: square;
+}
+
+body > article > ul > li:nth-child(2) > ul {
+    list-style-type: disc;
+}
+
+body > article > ul > li:nth-child(2) > ul > li:nth-child(2) > ul {
+    list-style-type: circle;
+}
+
+blockquote {
+    border-left: solid;
+    border-left-color: rgb(221, 221, 221);
+    font-style: italic;
+}
+
+blockquote p:last-of-type {
+    text-align: right;
+}
