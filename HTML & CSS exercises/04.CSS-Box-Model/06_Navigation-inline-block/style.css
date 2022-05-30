@@ -1,0 +1,30 @@
+html {
+    font-family: Helvetica, sans-serif;
+    margin: 50px;
+}
+
+header {
+    border-bottom: solid 2px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul h1 {
+    font-size: 50px;
+    padding-right: 50px;
+}
+
+header nav li a {
+    text-decoration: none;
+    padding: 10px;
+    color: green;
+}
+
+header nav,
+header nav ul h1,
+header nav ul li {
+    display: inline-block;
+}
