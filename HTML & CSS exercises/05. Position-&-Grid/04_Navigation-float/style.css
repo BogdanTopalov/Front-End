@@ -1,0 +1,26 @@
+header{grid-area: header;}
+main {grid-area: main;}
+aside {grid-area: aside;}
+
+body {
+    display: grid;
+    grid-template-columns: 700px auto;
+    grid-template-areas: 
+        "header header"
+        "main aside";
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+#header {
+    display: inline-block;
+}
+
+/* Unfinished */
