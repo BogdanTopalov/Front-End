@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    max-width: 65vw;
+}
+
+div, section {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.notes, .week {
+    flex-direction: column;
+}
