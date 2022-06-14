@@ -1,0 +1,7 @@
+body,
+section ul,
+section ul li {display: flex;}
+
+section ul {
+    justify-content: space-between;
+}
