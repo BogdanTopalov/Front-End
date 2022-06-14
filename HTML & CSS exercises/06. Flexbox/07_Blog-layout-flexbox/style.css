@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    background-color: rgb(255, 255 ,255);
+}
+
+blockquote, h1, h2 {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
