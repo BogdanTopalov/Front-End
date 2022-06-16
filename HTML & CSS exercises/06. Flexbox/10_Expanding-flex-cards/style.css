@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container img {
+    width: 150px;
+    height: 300px;
+}
+
+.container img:nth-child(2) {
+    width: 350px;
+}
