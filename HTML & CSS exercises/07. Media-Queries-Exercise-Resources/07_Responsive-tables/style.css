@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.phone {
+    display: none;
+
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+table{
+    width: 80%;
+    margin: 2rem;
+    border: solid black 2px;
+}
+
+table thead td{
+    background-color: darkslategray;
+    color: white;
+}
+
+table tbody tr {
+    background-color: lightgray;
+}
+
+table tbody tr:last-of-type {
+    background-color: white;
+}
+
+table thead td,
+table tbody td {
+    padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 600px){
+    .phone {
+        display: block;
+    }
+
+    .phone table {
+        border: none;
+    }
+}
