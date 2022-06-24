@@ -1,0 +1,164 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 17rem;
+}
+
+header nav .logo h1 {
+    font-size: 50px;
+    padding-bottom: 0.5rem;
+    color: #800080;
+}
+
+header nav .logo p {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+section.question {
+    display: flex;
+    justify-content: space-around;
+    padding: 9rem 3rem;
+
+}
+
+section.question .info {
+    width: 65%;
+}
+
+section.question .info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+section.question .info p {
+    font-size: x-large;
+    line-height: 1.5;
+}
+
+section.question .info button {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    border-radius: 5px;
+    
+}
+
+section.question i {
+    font-size: 200px;
+}
+
+
+section.team h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.line {
+    height: 2rem;
+    border-bottom: solid 4px black;
+    width: 120px;
+    margin: 0 auto;
+}
+
+section.team .team_members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem 3rem;
+    gap: 5rem;
+}
+
+section.team .team_members .member {
+    text-align: center;
+    line-height: 1.5;
+    width: 15rem;
+    height: 20rem;
+}
+
+section.team .team_members .member img {
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+section.team .team_members .member .name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+section.team .team_members .member .position {
+    font-size: 20px;
+}
+section.team .team_members .member .description {
+    margin-top: 2rem;
+    font-size: 22px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #68347b;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer p {
+    color: white;
+    font-size: 56px;
+}
+
+footer form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer form input,
+footer form button {
+    height: 2rem;
+    border-radius: 5px;
+}
+
+footer form input {
+    width: 25rem;
+    outline: none;
+    border: none;
+}
+
+footer form button {
+    font-size: 16px;
+    border: none;
+    padding: 0 1rem;
+}
