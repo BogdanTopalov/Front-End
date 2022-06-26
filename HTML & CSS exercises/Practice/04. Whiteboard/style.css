@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: PT Sans;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/image/computer-main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 47rem;
+    text-shadow: 2px 3px 2px #000000;
+}
+
+header nav ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 3rem 15rem 1rem 15rem;
+}
+
+header nav ul li {
+    font-size: 30px;
+    
+}
+
+header nav ul li i {
+    padding-right: 0.5rem;
+}
+
+header .title {
+    text-align: center;
+    
+}
+header .title h1 {
+    margin-top: 3.5rem;
+    font-size: 80px;
+}
+
+header .title p {
+
+    font-size: 30px;
+    padding: 2rem 33.5rem;
+}
+
+header .title button {
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+    background-color: #00d08e;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 5%;
+    margin: 4rem 0rem 3rem 0rem;
+}
+
+header .title button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+body > header > section > p:nth-child(4) > i {
+    margin-left: 1rem;
+}
+
+main section {
+    display: flex;
+}
+
+main section img,
+main section .info {
+    width: 50%;
+}
+
+main section .info {
+    padding: 3rem 5rem;
+}
+main section .info h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main section .info p {
+    font-size: 30px;
+    padding: 1.5rem 0rem;
+}
+
+main section .info ul li {
+    list-style: none;
+    font-size: 28px;
+    padding: 0.7rem 0rem;
+
+}
+
+main section .info ul li i {
+    font-size: 30px;
+    color: #00d08e;
+    margin-right: 2rem;
+}
+
+main section .info .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 4rem;
+}
+body > main > section:nth-child(2) > div > h2{
+    text-align: center;
+}
+
+main section .info .actions .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .info .actions .card img {
+    object-fit: cover;
+    width: 7rem;
+    height: 7rem;
+}
+
+main section .info .actions .card p {
+    padding: 0;
+    color: #00d08e;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: #b2f1dd;
+}
+
+footer h2 {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+footer section.questions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+footer .question {
+    text-align: center;
+    width: 27rem;
+    height: 14rem;
+}
+
+footer .question h3 {
+    font-size: 28px;
+    padding: 1rem;
+}
+
+footer .question p {
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 24px;
+}
